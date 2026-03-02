@@ -42,11 +42,17 @@ Proje Yapısı
 
 
 CipherFile/
-│
-├── aes.py        # AES şifreleme algoritması
-├── des3.py       # DES3 şifreleme algoritması
-├── caesar.py     # Caesar şifreleme algoritması
-├── xor.py        # XOR şifreleme algoritması
-├── file.py       # Dosya okuma ve yazma işlemleri
-├── gui.py        # Grafiksel kullanıcı arayüzü
-└── README.md
+
+aes.py        # AES şifreleme algoritması
+
+des3.py       # DES3 şifreleme algoritması
+
+caesar.py     # Caesar şifreleme algoritması
+
+xor.py        # XOR şifreleme algoritması
+
+file.py       # Dosya okuma ve yazma işlemleri
+
+gui.py        # Grafiksel kullanıcı arayüzü
+
+README.md
