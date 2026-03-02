@@ -116,9 +116,6 @@ def de_3des(text, key):
 ## Dosya şifreleme / çözme 
 
 def encrypt_file_3des(input_path, output_path, key_text: str):
-    """
-    key_text: 3 karakterlik anahtar (ör: "KEY")
-    """
     text = read_text_file(input_path)
     encrypted = en_3des(text, key_text)
     write_text_file(output_path, encrypted)
